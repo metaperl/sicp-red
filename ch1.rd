@@ -36,4 +36,4 @@ fib: func [n][
     ]
 ]
 
-memoize 'fib
+memoize :fib
