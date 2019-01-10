@@ -22,9 +22,10 @@ factorial: func [n][
     ]
 ]
 
-; Memoization for Red
-; https://github.com/nedzadarek/Red-Memoi
-do %../Red-Memoi/main.red
+
+;https://github.com/metaperl/whatnot/blob/master/red/memoize.red
+
+;do %../whatnot/red/memoize.red
 
 ; https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.2
 fib: func [n][
@@ -34,3 +35,5 @@ fib: func [n][
         true [fib (n - 1) + fib (n - 2)]
     ]
 ]
+
+memoize 'fib
