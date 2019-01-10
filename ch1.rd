@@ -25,7 +25,7 @@ factorial: func [n][
 
 ;https://github.com/metaperl/whatnot/blob/master/red/memoize.red
 
-;do %../whatnot/red/memoize.red
+do %../whatnot/red/memoize.red
 
 ; https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.2
 fib: func [n][
