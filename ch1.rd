@@ -22,6 +22,10 @@ factorial: func [n][
     ]
 ]
 
+; Memoization for Red
+; https://github.com/nedzadarek/Red-Memoi
+do %../Red-Memoi/main.red
+
 ; https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.2
 fib: func [n][
     case [
