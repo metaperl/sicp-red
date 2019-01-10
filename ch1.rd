@@ -22,6 +22,7 @@ factorial: func [n][
     ]
 ]
 
+; https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.2
 fib: func [n][
     case [
         n = 0 [0]
