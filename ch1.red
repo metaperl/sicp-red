@@ -35,5 +35,3 @@ fib: func [n][
         true [fib (n - 1) + fib (n - 2)]
     ]
 ]
-
-memoize :fib
